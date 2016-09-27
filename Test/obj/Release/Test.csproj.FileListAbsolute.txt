@@ -1,0 +1,5 @@
+K:\test\SfbEnforcer\Test\bin\Release\Test.exe.config
+K:\test\SfbEnforcer\Test\bin\Release\Test.exe
+K:\test\SfbEnforcer\Test\bin\Release\Test.pdb
+K:\test\SfbEnforcer\Test\obj\Release\Test.exe
+K:\test\SfbEnforcer\Test\obj\Release\Test.pdb

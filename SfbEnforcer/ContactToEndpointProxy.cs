@@ -70,6 +70,7 @@ namespace SfbEnforcer
 
         protected string RecvData()
         {
+            /*
             byte[] data = new byte[2048];
             Trace.WriteLine("RecvData: begin");
 
@@ -81,6 +82,8 @@ namespace SfbEnforcer
             Trace.WriteLine("RecvData:" + strRecv);
 
             return strRecv;
+             * */
+            return "";
         }
 
         public void SendConfTaggingRequest(string strConfUri)

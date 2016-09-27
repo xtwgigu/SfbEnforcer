@@ -43,14 +43,30 @@ namespace SfbHttpEnforcer
             m_oldFilter.Flush();
             m_oldFilter.Close();
 
-            //if it is a text content, we output it    
-            if(m_httpResponse.ContentType.Contains("text"))
+            //if it is a text content, we output it 
+            try
             {
-                m_streamContentBuf.Position = 0;
-                StreamReader contentReader = new StreamReader(m_streamContentBuf);
-                String strContent = contentReader.ReadToEnd();
-                Trace.WriteLine(strContent);
+                Trace.WriteLine("ContentType:" + m_httpResponse.ContentType);
+                Trace.WriteLine("ContentLen:" + m_httpResponse.Headers["Content-Length"]);
+                if (m_httpResponse.ContentType.Contains("text"))
+                {
+                    /*
+                    m_streamContentBuf.Position = 0;
+                    StreamReader contentReader = new StreamReader(m_streamContentBuf);
+                    String strContent = contentReader.ReadToEnd();
+                   Trace.WriteLine(strContent); */
+                    FileStream f = new FileStream("c:\\sfbEnforcer\\" + Guid.NewGuid().ToString() + ".txt", FileMode.CreateNew);
+                    m_streamContentBuf.Position = 0;
+                    m_streamContentBuf.CopyTo(f);
+                    f.Flush();
+                    f.Close();
+                }
             }
+            catch(Exception ex)
+            {
+                Trace.WriteLine(ex.ToString());
+            }
+    
            
         }
         public override void Flush()

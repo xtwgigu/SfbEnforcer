@@ -1,0 +1,5 @@
+K:\test\SfbEnforcer\udpServer\bin\Release\udpServer.exe.config
+K:\test\SfbEnforcer\udpServer\bin\Release\udpServer.exe
+K:\test\SfbEnforcer\udpServer\bin\Release\udpServer.pdb
+K:\test\SfbEnforcer\udpServer\obj\Release\udpServer.exe
+K:\test\SfbEnforcer\udpServer\obj\Release\udpServer.pdb

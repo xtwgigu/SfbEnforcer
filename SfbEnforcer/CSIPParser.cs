@@ -259,9 +259,7 @@ namespace SfbEnforcer
                     {
                         Console.WriteLine("Deny Invite:{0}", strToUser);
 
-                        string strErrorCode = ConfigurationManager.AppSettings["ErrorCodeDenyInvite"];
-                         ourResponse = sipRequest.CreateResponse(int.Parse(strErrorCode));
-                        ourResponse.AllHeaders.Add(new Header("warning", "399 lcs.microsoft.com \"invite not allowed by policy\""));
+                         ourResponse = sipRequest.CreateResponse(606);
                        
                         //send notify message
                        ContactToEndpointProxy.GetProxyContact().SendMessageToUser("sip:" + strFromUser, "Deny Invite", "Your invite to " + strToUser + " is denied by SFB Enforcer");
@@ -331,8 +329,7 @@ namespace SfbEnforcer
                   if (!bAllow)
                   {
                       Console.WriteLine("Deny Enter meeting:{0}", strFromUser);
-                      string strErrorCode = ConfigurationManager.AppSettings["ErrorCodeDenyInvite"];
-                      ourResponse = sipRequest.CreateResponse(int.Parse(strErrorCode));
+                      ourResponse = sipRequest.CreateResponse(600);
 
                       //send notify message
                       ContactToEndpointProxy.GetProxyContact().SendMessageToUser("sip:" + strFromUser, "Deny Enter Meeting", "Your entry to the meeting is denied by SFB Enforcer");
@@ -407,7 +404,9 @@ namespace SfbEnforcer
                                 Console.WriteLine("Deny {0} join chat room:{1}", strFromUser, chatRoom.Name);
                                 ourResponse = sipRequest.CreateResponse(405);
 
-
+                                //send notify message
+                                ContactToEndpointProxy.GetProxyContact().SendMessageToUser("sip:" + strFromUser, "Deny Join chat room", "Your join to the chat room is denied by SFB Enforcer");
+    
                             }
                             else
                             {

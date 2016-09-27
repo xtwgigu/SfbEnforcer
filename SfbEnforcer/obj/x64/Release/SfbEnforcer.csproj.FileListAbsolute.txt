@@ -1,0 +1,6 @@
+K:\myproj\SfbEnforcer\SfbEnforcer\bin\x64\Release\SfbEnforcer.exe.config
+K:\myproj\SfbEnforcer\SfbEnforcer\bin\x64\Release\SfbEnforcer.exe
+K:\myproj\SfbEnforcer\SfbEnforcer\bin\x64\Release\SfbEnforcer.pdb
+K:\myproj\SfbEnforcer\SfbEnforcer\bin\x64\Release\ServerAgent.dll
+K:\myproj\SfbEnforcer\SfbEnforcer\obj\x64\Release\SfbEnforcer.exe
+K:\myproj\SfbEnforcer\SfbEnforcer\obj\x64\Release\SfbEnforcer.pdb

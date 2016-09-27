@@ -38,24 +38,24 @@ namespace SfbEnforcer
              if(!IsConferenceEndPoint(toHeader.Value))
              {
                  Header contentType = request.AllHeaders.FindFirst(SIP_HDR_CONTENTTYPE);
-                 if(contentType.Value.Equals("application/sdp"))
+                 if(contentType != null)
                  {
-                     return SIP_INVITE_TYPE.INVITE_IM_INVITE;
+                     if (contentType.Value.Equals("application/sdp"))
+                     {
+                         return SIP_INVITE_TYPE.INVITE_IM_INVITE;
+                     }
+                     else if (contentType.Value.Equals("application/ms-conf-invite+xml"))
+                     {
+                         return SIP_INVITE_TYPE.INVITE_CONF_INVITE;
+                     }
                  }
-                 else if(contentType.Value.Equals("application/ms-conf-invite+xml"))
-                 {
-                     return SIP_INVITE_TYPE.INVITE_CONF_INVITE;
-                 }
-                 else
-                 {
-                     return SIP_INVITE_TYPE.INVITE_UNKNOWN;
-                 }
-
              }
              else
              {
                  return SIP_INVITE_TYPE.INVITE_CONF_ENTER;
              }
+
+             return SIP_INVITE_TYPE.INVITE_UNKNOWN;
           
          }
 

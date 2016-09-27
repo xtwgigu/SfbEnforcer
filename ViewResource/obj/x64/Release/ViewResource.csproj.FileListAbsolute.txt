@@ -1,0 +1,7 @@
+K:\myproj\SfbEnforcer\ViewResource\bin\x64\Release\ViewResource.exe.config
+K:\myproj\SfbEnforcer\ViewResource\bin\x64\Release\ViewResource.exe
+K:\myproj\SfbEnforcer\ViewResource\bin\x64\Release\ViewResource.pdb
+K:\myproj\SfbEnforcer\ViewResource\bin\x64\Release\RtcMgmt.Resource.dll
+K:\myproj\SfbEnforcer\ViewResource\obj\x64\Release\ViewResource.exe
+K:\myproj\SfbEnforcer\ViewResource\obj\x64\Release\ViewResource.pdb
+K:\myproj\SfbEnforcer\ViewResource\obj\x64\Release\ViewResource.csprojResolveAssemblyReference.cache

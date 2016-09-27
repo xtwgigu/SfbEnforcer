@@ -1,0 +1,4 @@
+K:\myproj\SfbEnforcer\SfbHttpEnforcer\bin\x64\Release\SfbHttpEnforcer.dll
+K:\myproj\SfbEnforcer\SfbHttpEnforcer\bin\x64\Release\SfbHttpEnforcer.pdb
+K:\myproj\SfbEnforcer\SfbHttpEnforcer\obj\x64\Release\SfbHttpEnforcer.dll
+K:\myproj\SfbEnforcer\SfbHttpEnforcer\obj\x64\Release\SfbHttpEnforcer.pdb

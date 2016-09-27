@@ -19,7 +19,7 @@ namespace SfbEnforcer
 
 
             //read config
-            ContactToEndpointProxy.GetProxyContact().GetEndpointProxyInfo();
+           ContactToEndpointProxy.GetProxyContact().GetEndpointProxyInfo();
 
 
             //Connect to server

@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SfbHttpEnforcer", "SfbHttpE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqliteTest", "sqliteTest\sqliteTest.csproj", "{A6DDFD86-E5AB-4997-A86E-84B393221008}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewResource", "ViewResource\ViewResource.csproj", "{5927FD9F-FD22-4223-AC3F-38683B35600F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,16 @@ Global
 		{A6DDFD86-E5AB-4997-A86E-84B393221008}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A6DDFD86-E5AB-4997-A86E-84B393221008}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A6DDFD86-E5AB-4997-A86E-84B393221008}.Release|x64.ActiveCfg = Release|x64
+		{5927FD9F-FD22-4223-AC3F-38683B35600F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5927FD9F-FD22-4223-AC3F-38683B35600F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5927FD9F-FD22-4223-AC3F-38683B35600F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5927FD9F-FD22-4223-AC3F-38683B35600F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5927FD9F-FD22-4223-AC3F-38683B35600F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5927FD9F-FD22-4223-AC3F-38683B35600F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5927FD9F-FD22-4223-AC3F-38683B35600F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5927FD9F-FD22-4223-AC3F-38683B35600F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5927FD9F-FD22-4223-AC3F-38683B35600F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5927FD9F-FD22-4223-AC3F-38683B35600F}.Release|x64.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

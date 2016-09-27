@@ -1,0 +1,6 @@
+K:\myproj\SfbEnforcer\ViewResource\bin\Debug\ViewResource.exe.config
+K:\myproj\SfbEnforcer\ViewResource\bin\Debug\ViewResource.exe
+K:\myproj\SfbEnforcer\ViewResource\bin\Debug\ViewResource.pdb
+K:\myproj\SfbEnforcer\ViewResource\bin\Debug\RtcMgmt.Resource.dll
+K:\myproj\SfbEnforcer\ViewResource\obj\Debug\ViewResource.exe
+K:\myproj\SfbEnforcer\ViewResource\obj\Debug\ViewResource.pdb
